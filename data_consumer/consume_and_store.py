@@ -18,7 +18,7 @@ consumer = KafkaConsumer(
     'customer_events',
     bootstrap_servers='localhost:9092',
     value_deserializer=lambda m: json.loads(m.decode('utf-8')),
-    auto_offset_reset='earliest',
+    auto_offset_reset='latest',
     enable_auto_commit=True,
     group_id='retail-consumer-group'
 )
@@ -35,14 +35,13 @@ for message in consumer:
     # Insert into Postgres
     cursor.execute(
         """
-        INSERT INTO customer_events (customer_id, event, product_id, store_id, event_timestamp)
-        VALUES (%s, %s, %s, %s, %s)
+        INSERT INTO customer_events (customer_id, event_type, product_id, timestamp)
+        VALUES (%s, %s, %s, %s)
         """,
         (
             event['customer_id'],
-            event['event'],
+            event['event_type'],
             event['product_id'],
-            event['store_id'],
             event_time
         )
     )

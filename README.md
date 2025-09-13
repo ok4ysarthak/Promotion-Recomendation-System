@@ -60,7 +60,6 @@
    python3 -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-
 3. Configure settings
    ```
    Edit .env or files in env/ to supply configuration (e.g. DB credentials, API keys, thresholds).
@@ -73,8 +72,6 @@
 7. Launch dashboards / monitor
    ```
    Run dashboard modules to visualize inventory, promotions performance, customers metrics, etc.
-
----
 
 ## 🌟 Why This Matters
 

@@ -106,7 +106,7 @@ Want to suggest a feature? Found a bug?
 You’re welcome to contribute! 🎉  
 
 1. Fork the repo  
-2. Create a new branch (`feature-xyz`)  
+2. Create a new branch (`xyz`)  
 3. Commit changes  
 4. Open a Pull Request  
 
@@ -115,7 +115,7 @@ You’re welcome to contribute! 🎉
 ## 📫 Contact
 
 **Sarthak Kumar Singh**  
-📧 [your.email@example.com]  
+📧 [ok4ysarthak@gmail.com]  
 
 ---
 

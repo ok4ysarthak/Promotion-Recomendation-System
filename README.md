@@ -65,15 +65,12 @@
 3. Configure settings
    ```
    Edit .env or files in env/ to supply configuration (e.g. DB credentials, API keys, thresholds).
-
 5. Generate or load data
    ```
    Either use the data_generator/ to simulate data or load your real transactional / clickstream datasets.
-
 6. Run promotion engine
    ```
    python app.py
-
 7. Launch dashboards / monitor
    ```
    Run dashboard modules to visualize inventory, promotions performance, customers metrics, etc.

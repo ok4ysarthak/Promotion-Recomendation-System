@@ -54,3 +54,22 @@
    ```bash
    git clone https://github.com/ok4ysarthak/Promotion-Recomendation-System.git
    cd Promotion-Recomendation-System
+   
+2. Set up environment
+
+   python3 -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+
+
+3. Configure settings
+   Edit .env or files in env/ to supply configuration (e.g. DB credentials, API keys, thresholds).
+
+4. Generate or load data
+   Either use the data_generator/ to simulate data or load your real transactional / clickstream datasets.
+
+5. Run promotion engine
+   python app.py
+
+6. Launch dashboards / monitor
+   Run dashboard modules to visualize inventory, promotions performance, customers metrics, etc.

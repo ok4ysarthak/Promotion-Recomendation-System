@@ -40,11 +40,11 @@
 
 | Layer | Technology |
 |---|---|
-| Data & Modeling | Python, Pandas, (optionally scikit-learn / XGBoost or any ML framework you prefer) |
-| Web / API | Flask / FastAPI (if used) |
-| Visualization / Dashboard | Dash / Streamlit / Plotly / (or any preferred frontend) |
+| Data & Modeling | Python, Kafka |
+| Web / API | Flask / FastAPI |
+| Visualization / Dashboard | Streamlit |
 | Infrastructure / Deployment | Docker, docker-compose |
-| Data Storage | Local files / simulated datasets (expandable to DB / cloud storage) |
+| Data Storage | Local files / simulated datasets (expandable to DB / cloud storage), PostgreSQL |
 
 ---
 

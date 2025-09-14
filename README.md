@@ -38,6 +38,10 @@
 
 <img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/c45d23a6-a1ef-4415-b7c5-4a89159108d0" />
 
+<img width="1891" height="902" alt="image" src="https://github.com/user-attachments/assets/7802de21-9724-4f14-8a38-25fa58722499" />
+
+<img width="1905" height="900" alt="image" src="https://github.com/user-attachments/assets/a3aabcad-a0a3-4872-a28f-18a7ccbc007d" />
+
 
 ## 🛠️ Tech Stack & Tools
 

@@ -36,6 +36,9 @@
 
 ---
 
+<img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/c45d23a6-a1ef-4415-b7c5-4a89159108d0" />
+
+
 ## 🛠️ Tech Stack & Tools
 
 | Layer | Technology |

@@ -69,17 +69,19 @@
    pip install -r requirements.txt
 3. Configure settings
    ```
-   Edit .env or files in env/ to supply configuration (e.g. DB credentials, API keys, thresholds).
+   1) Edit .env or files in env/ to supply configuration (e.g. DB credentials, API keys, thresholds).
+   2) Run docker-compose.yml to activate the kafka and postgres containers
 5. Generate or load data
    ```
-   Either use the data_generator/ to simulate data or load your real transactional / clickstream datasets.
+   1) Run data_generator.py to generate data
+   2) Run data_consumer.py so that the data can be consumed into postgres database
 6. Run promotion engine
    ```
    python app.py
 7. Launch dashboards / monitor
    ```
+   streamlit run app.py
    Run dashboard modules to visualize inventory, promotions performance, customers metrics, etc.
-
 ## 🌟 Why This Matters
 
 - **Higher ROI on Marketing Spend** → Reduce wasted discounts and maximize incremental revenue.  
